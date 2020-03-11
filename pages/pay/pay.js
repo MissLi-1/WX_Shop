@@ -20,10 +20,6 @@ Page({
             totalNum += v.num;
         });
       }
-
-
-
-
     this.setData({
       address,
       cart,
@@ -31,19 +27,6 @@ Page({
       totalNum,
     })  
   },
-
-  // 计算总价格，总数量，是否全选
-  countMoney(cart){
-    // let cart = this.data.cart;
-  
-      this.setData({
-      })
-      wx.setStorageSync("cart", cart);
-  },
-
-
-
-
 
 
 })
