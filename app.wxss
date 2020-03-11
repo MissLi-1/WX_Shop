@@ -1,0 +1,41 @@
+/* 引入阿里巴巴矢量图标库 */
+@import "./style/iconfont.wxss";
+
+
+/* 配置全局样式
+    swiper:轮播图标签，
+    swiper-item：轮播图单个，
+    image：图片
+    navigator：超链接
+*/
+page,view,text,swiper,swiper-item,image,navigator{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 主题颜色，通过变量来实现
+
+less中存在  变量  这个知识
+原生的css和wxss也是 支持 变量
+*/
+page{
+    /* 定义主题颜色 */
+    --themeColor:#FF3300;
+    
+    
+    /* 定义统一字体大小，假设设计稿  大小375px
+        375px = 750rxp
+        1px = 2rpx
+        14px = 28rpx
+    */
+    font-size: 28rpx;
+    
+}
+
+image{
+    width: 100%;
+}
+
+
